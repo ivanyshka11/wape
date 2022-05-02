@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1299px;
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 63.38%), url(images/background.png);
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 198.89px;
+    text-align: center;
+}
+
+h1 p {
+    font-size: 75.26px;
+}
+
+header nav ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding-right: 50px;
+}
+
+header h1 {
+    color: white;
+    padding-top: 302px;
+    padding-bottom: 233px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+header li:first-child {
+    padding: 0;
+}
+
+main {
+    background-color: black;
+}
+
+main h2 {
+    color: #fff;
+}
+
+main nav ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+main nav a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+main nav a:hover {
+    color: #fff;
+    text-decoration: dotted;
+    padding-right: 50px;
+}
+
+main ol li a img {
+    width: 218px;
+}
+
+main ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main ol li a img:hover {
+    width: 475px;
+}
+
+p {
+    color: #fff;
+}
+
+main ol li a p:hover {
+    font-size: 32px;
+}
+
+main ol li a p {
+    text-decoration: none;
+    font-size: 18px;
+}
