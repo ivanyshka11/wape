@@ -1,13 +1,45 @@
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
 .ime{
     color: white;
 }
-.vred{
+.chto{
+    color: white;
+}
+.container{
+    max-width: 1089px;
+    margin: auto;
+}
+.chto-img{
+    display: inline-block;
+    width: 488px;
+}
+.chto-info{
+    display: inline-block;
+    width: 442px;
+}
+.vred1{
     display: inline-block;
     color: white;
-    width: 193px;
+    width: 197px;
+}
+.vred2{
+    display: inline-block;
+    color: white;
+    width: 204px;
+}
+.vred3{
+    display: inline-block;
+    color: white;
+    width: 197px;
+}
+.vred4{
+    display: inline-block;
+    color: white;
+    width: 198px;
 }
 .vred img{
 }
-body{
-    background-color: black;
-}
+
