@@ -7,11 +7,21 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    max-width: 1299px;
+    margin: auto;
+}
 
 .stats-right {
     display: inline-block;
-    width: 9%;
+    width: 48%;
 }
+
+.stats-left {
+    display: inline-block;
+    width: 42%;
+}
+
 
 h2 {
     font-family: Inter;
@@ -36,7 +46,7 @@ p {
 
 .history-left, .history-right {
     display: inline-block;
-    width: 49%;
+    width: 48%;
 }
 
 .history-right {
@@ -66,4 +76,11 @@ ul {
     display: inline-block;
     width: 50%;
     vertical-align: middle;
+}
+
+@media(max-width: ){
+    .c{
+        max-width: 95%;
+    }
+
 }
