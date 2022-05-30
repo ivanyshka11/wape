@@ -15,10 +15,13 @@ body{
 .chto-img{
     display: inline-block;
     width: 488px;
+    vertical-align: middle;
 }
 .chto-info{
     display: inline-block;
     width: 442px;
+    vertical-align: middle;
+    margin-left: 150px;
 }
 .vred1{
     display: inline-block;
@@ -41,5 +44,8 @@ body{
     width: 198px;
 }
 .vred img{
+}
+h2{
+    font-size: 72px;
 }
 
