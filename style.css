@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
-p{
+p {
     font-family: 'Inter', sans-serif;
+}
+
+img {
+    max-width: 100%;
 }
 
 .container {
@@ -13,15 +17,12 @@ p{
     margin: auto;
 }
 
-img{
-    max-width: 100%;
-}
-
 header {
     background-image: url(images/background.png);
     background-size: cover;
     background-position: bottom;
     position: relative;
+    font-family: 'Inter', sans-serif;
 }
 
 header .container {
@@ -64,6 +65,7 @@ header li:first-child {
 
 main {
     background-color: black;
+    font-family: 'Inter', sans-serif;
 }
 
 main h2 {
@@ -99,11 +101,6 @@ main ol {
     justify-content: space-between;
 }
 
-main .obertka a img,h4:hover {
-    width: 475px;
-    font-size: 32px;
-}
-
 h4 {
     color: #fff;
     text-decoration: none;
@@ -113,8 +110,10 @@ a {
     text-decoration: none;
 }
 
-main a h4:hover {
+main .obertka .ten h4 {
     font-size: 32px;
+    padding-top: 75px;
+    padding-left: 43px;
 }
 
 main div a h4 {
@@ -136,16 +135,54 @@ main .ten {
     width: 475px;
 }
 
-main .obertka{
+main .obertka {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
+    padding-top: 60px;
 }
 
-main .children, .vape, .rak{
+main .children,
+.vape,
+.rak {
     width: 218px;
 }
 
-main .obertka img:hover{
+main .obertka img:hover {
     transform: scale(1.1);
 }
+
+.obertka p {
+    padding-left: 44px;
+    padding-top: 29px;
+    color: #fff;
+}
+
+@media(max-width: 1299px) {
+    .container {
+        max-width: 95%;
+    }
+
+}
+
+@media(max-width: 1000px; ) {
+    main .obertka {
+        flex-wrap: wrap;
+    }
+    main .children, main .wape, main .rak{
+        width: 60%;
+        padding-bottom: 40px;
+        margin-bottom: 20px;
+
+    }
+}
+
+@media(max-width: 900px) {
+    img {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 700;)
