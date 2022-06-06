@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    font-family: 'Inter';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1299px;
+    margin: auto;
+}
+
+img {
+max-width: 100%;
+}
+
+.stats-right {
+    display: inline-block;
+    width: 48%;
+}
+
+.stats-left {
+    display: inline-block;
+    width: 42%;
+}
+
+
+h2 {
+    font-family: Inter;
+    font-style: normal;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+}
+
+.history p {
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 35px;
+}
+
+.history-left, .history-right {
+    display: inline-block;
+    width: 48%;
+}
+
+.history-right {
+    padding-left: 70px;
+}
+
+.history {
+    padding-top: 150px;
+}
+
+.statistics p {
+    padding-top: 45px;
+}
+
+ul {
+    color: white;
+    padding-left: 30px;
+}
+
+.explanation-right {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.explanation-left {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+@media(max-width: 1299px ){
+    .container{
+        max-width: 95%;
+    }
+
+}
+
+@media(max-width: 900px){
+    .stats-left, .stats-right, .history-left, .history-right, .explanation-left, .explanation-right{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .history{
+        padding-top: 50px;
+    }
+
+    .history-right{
+        padding-left: 0;
+    }
+}
